@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 
 <ModMetaData>
 	<packageId>narhiril.apitechevasuits</packageId>
@@ -21,6 +21,7 @@
 	</modDependencies>
 	<loadAfter>
 	  <li>Ludeon.RimWorld</li>
+	  <li>sarg.rimbees</li>
 	  <li>sera.apinialienrace</li>
 	  <li>kentington.saveourship2</li>
 	</loadAfter>
