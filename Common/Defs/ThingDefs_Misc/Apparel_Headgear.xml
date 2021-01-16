@@ -36,7 +36,7 @@
       <ArmorRating_Sharp>0.90</ArmorRating_Sharp>
       <ArmorRating_Blunt>0.50</ArmorRating_Blunt>
       <ArmorRating_Heat>0.55</ArmorRating_Heat>
-      <Insulation_Cold>50</Insulation_Cold>
+      <Insulation_Cold>60</Insulation_Cold>
       <Insulation_Heat>25</Insulation_Heat>
       <EquipDelay>4</EquipDelay>
 	</statBases>
@@ -48,21 +48,23 @@
       <Plasteel>35</Plasteel>
 	  <ApiniWax>15</ApiniWax>
     </costList>
-		<apparel>
-			<bodyPartGroups>
-				<li>FullHead</li>
-			</bodyPartGroups>
-			<wornGraphicPath></wornGraphicPath> <!--change this-->
-			<useWornGraphicMask>true</useWornGraphicMask>
-			<layers>
-				<li>Overhead</li>
-			</layers>
-			<tags>
-				<li>Spacer</li>
-				<li>EVA</li>
-				<li>Bee</li>
-			</tags>
-    </apparel>
+	<apparel>
+		<bodyPartGroups>
+			<li>FullHead</li>
+		</bodyPartGroups>
+		<wornGraphicPath></wornGraphicPath> <!--change this-->
+		<useWornGraphicMask>true</useWornGraphicMask>
+		<layers>
+			<li>Overhead</li>
+		</layers>
+		<tags>
+			<li>Spacer</li>
+			<li>EVA</li>
+			<li>Bee</li>
+		</tags>
+		<defaultOutfitTags>
+		</defaultOutfitTags>
+	</apparel>
   </ThingDef>
 
 </Defs>
