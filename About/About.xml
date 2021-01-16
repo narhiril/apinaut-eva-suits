@@ -21,7 +21,6 @@
 	</modDependencies>
 	<loadAfter>
 	  <li>Ludeon.RimWorld</li>
-	  <li>sarg.rimbees</li>
 	  <li>sera.apinialienrace</li>
 	  <li>kentington.saveourship2</li>
 	</loadAfter>
