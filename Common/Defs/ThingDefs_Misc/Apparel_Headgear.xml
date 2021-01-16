@@ -4,15 +4,16 @@
 
   <ThingDef ParentName="ArmorHelmetMakeableBase">
     <defName>ApiEva_ApitechEvaHelmet</defName>
-    <label>Prototype Apitech EVA Helmet</label>
+    <label>Apitech EVA Helmet</label>
     <description>This helmet is made from a beeswax-plasteel metamaterial, making it light, strong, and slightly fragrant.  It's perfect for any Apini who might - hypothetically - want to visit the moon in order to confirm that it's made of wax.</description>
-    <graphicData>
+	<generateCommonality>0</generateCommonality>
+	<tradeability>Sellable</tradeability>
+    <techLevel>Spacer</techLevel>
+	<graphicData>
 		<texPath>Things/Apparel/apitechevahelmet_south</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
+		<shaderType>CutoutComplex</shaderType>
     </graphicData>
-	<generateCommonality>0</generateCommonality>
-	<tradeability>sellable</tradeability>
-    <techLevel>Spacer</techLevel>
     <recipeMaker>
 		<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
 		<researchPrerequisite>ShipSpaceSuits</researchPrerequisite>
@@ -23,36 +24,31 @@
 			<li>FabricationBench</li> <!--change this-->
 		</recipeUsers>
     </recipeMaker>
-    <graphicData>
-      <texPath></texPath> <!--change this-->
-      <graphicClass>Graphic_Single</graphicClass>
-      <!--<shaderType>CutoutComplex</shaderType>-->
-    </graphicData>
 	<statBases>
-      <WorkToMake>21000</WorkToMake>
-      <MaxHitPoints>115</MaxHitPoints>
-      <Mass>1.7</Mass>
-      <Flammability>0.5</Flammability>
-      <ArmorRating_Sharp>0.90</ArmorRating_Sharp>
-      <ArmorRating_Blunt>0.50</ArmorRating_Blunt>
-      <ArmorRating_Heat>0.55</ArmorRating_Heat>
-      <Insulation_Cold>60</Insulation_Cold>
-      <Insulation_Heat>25</Insulation_Heat>
-      <EquipDelay>4</EquipDelay>
+		<WorkToMake>21000</WorkToMake>
+		<MaxHitPoints>115</MaxHitPoints>
+		<Mass>1.7</Mass>
+		<Flammability>0.5</Flammability>
+		<ArmorRating_Sharp>0.90</ArmorRating_Sharp>
+		<ArmorRating_Blunt>0.50</ArmorRating_Blunt>
+		<ArmorRating_Heat>0.55</ArmorRating_Heat>
+		<Insulation_Cold>60</Insulation_Cold>
+		<Insulation_Heat>25</Insulation_Heat>
+		<EquipDelay>4</EquipDelay>
 	</statBases>
     <equippedStatOffsets>
-      <MoveSpeed>-0.04</MoveSpeed>
+		<MoveSpeed>-0.04</MoveSpeed>
     </equippedStatOffsets>
     <costList>
-      <ComponentSpacer>2</ComponentSpacer>
-      <Plasteel>35</Plasteel>
-	  <ApiniWax>15</ApiniWax>
+		<ComponentSpacer>2</ComponentSpacer>
+		<Plasteel>35</Plasteel>
+		<ApiniWax>15</ApiniWax>
     </costList>
 	<apparel>
 		<bodyPartGroups>
 			<li>FullHead</li>
 		</bodyPartGroups>
-		<wornGraphicPath></wornGraphicPath> <!--change this-->
+		<wornGraphicPath>Things/Apparel/apitechevahelmet</wornGraphicPath> <!--change this-->
 		<useWornGraphicMask>true</useWornGraphicMask>
 		<layers>
 			<li>Overhead</li>

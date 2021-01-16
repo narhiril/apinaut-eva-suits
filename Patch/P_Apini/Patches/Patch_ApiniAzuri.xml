@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+<!--Modifies Apini's HAR settings to restrict this suit to Apini/Azuri only, as it has no graphics for anyone else-->
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Apini"]/alienRace/raceRestriction/apparelList</xpath>
+				<value>
+					<li>ApiEva_ApitechEvaSuit</li>
+					<li>ApiEva_ApitechEvaHelmet</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Azuri"]/alienRace/raceRestriction/apparelList</xpath>
+				<value>
+					<li>ApiEva_ApitechEvaSuit</li>
+					<li>ApiEva_ApitechEvaHelmet</li>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+</Patch>

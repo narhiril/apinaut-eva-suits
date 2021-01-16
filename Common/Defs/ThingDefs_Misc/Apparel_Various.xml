@@ -3,12 +3,16 @@
 <Defs>
 
   <ThingDef ParentName="ArmorMachineableBase">
-	<defName>ApiEva_ApitechEvaSuit</defname>
-	<label>Prototype Apitech EVA Suit</label>
-    <description>Thousands of Apitech mechanites wove this pressure suit out of beeswax and plasteel fibers.  It provides ample protection against the vacuum of space - though, sadly, none whatsoever against existential dread.</description>
-    <techLevel>Spacer</techLevel>
+	<defName>ApiEva_ApitechEvaSuit</defName>
+	<label>Apitech EVA Suit</label>
+    <description>A painstakinly-woven pressure suit made from of beeswax and plasteel fibers.  It provides ample protection against the vacuum of space - though, sadly, none whatsoever against the accompanying existential dread.\n  In space, no one can hear you make bee noises.</description>
 	<generateCommonality>0</generateCommonality>
-	<tradeability>sellable</tradeability>
+	<tradeability>Sellable</tradeability> 
+	<techLevel>Spacer</techLevel>
+    <graphicData>
+		<texPath>Things/Apparel/apitechevasuit_icon</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
     <recipeMaker>
 		<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
 		<researchPrerequisite>ShipSpaceSuits</researchPrerequisite>
@@ -19,47 +23,43 @@
 			<li>FabricationBench</li>
 		</recipeUsers>
 	</recipeMaker>
-    <graphicData>
-      <texPath></texPath> <!--change this-->
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
     <statBases>
-      <WorkToMake>40000</WorkToMake>
-      <MaxHitPoints>225</MaxHitPoints>
-      <Mass>12.5</Mass>
-      <ArmorRating_Sharp>0.85</ArmorRating_Sharp>
-      <ArmorRating_Blunt>0.5</ArmorRating_Blunt>
-      <ArmorRating_Heat>0.55</ArmorRating_Heat>
-      <Insulation_Cold>100</Insulation_Cold>
-      <Insulation_Heat>25</Insulation_Heat>
-      <EquipDelay>8</EquipDelay>
+		<WorkToMake>40000</WorkToMake>
+		<MaxHitPoints>225</MaxHitPoints>
+		<Mass>12.5</Mass>
+		<ArmorRating_Sharp>0.85</ArmorRating_Sharp>
+		<ArmorRating_Blunt>0.5</ArmorRating_Blunt>
+		<ArmorRating_Heat>0.55</ArmorRating_Heat>
+		<Insulation_Cold>100</Insulation_Cold>
+		<Insulation_Heat>25</Insulation_Heat>
+		<EquipDelay>8</EquipDelay>
     </statBases>
     <equippedStatOffsets>
-      <MoveSpeed>-0.15</MoveSpeed>
-      <WorkSpeedGlobal>-0.1</WorkSpeedGlobal>
+		<MoveSpeed>-0.15</MoveSpeed>
+		<WorkSpeedGlobal>-0.1</WorkSpeedGlobal>
     </equippedStatOffsets>
     <thingCategories>
-      <li>Apparel</li>
+		<li>Apparel</li>
     </thingCategories>
     <costList>
-      <ComponentSpacer>2</ComponentSpacer>
-      <Plasteel>85</Plasteel>
-	  <ApiniWax>50</ApiniWax>
+		<ComponentSpacer>2</ComponentSpacer>
+		<Plasteel>85</Plasteel>
+		<ApiniWax>50</ApiniWax>
     </costList>
 	<apparel>
-			<bodyPartGroups>
-				<li>Neck</li>
-				<li>Torso</li>
-				<li>InsectWings</li>
-				<li>Shoulders</li>
-				<li>Arms</li>
-				<li>Hands</li>
-				<li>Abdomen</li>
-				<li>Legs</li>
-				<li>Feet</li>
-				<!--li>InsectSting</li-->
-			</bodyPartGroups>
-		<wornGraphicPath></wornGraphicPath> <!--change this-->
+		<bodyPartGroups>
+			<li>Neck</li>
+			<li>Torso</li>
+			<li>InsectWings</li>
+			<li>Shoulders</li>
+			<li>Arms</li>
+			<li>Hands</li>
+			<li>Abdomen</li>
+			<li>Legs</li>
+			<li>Feet</li>
+			<!--li>InsectSting</li-->
+		</bodyPartGroups>
+		<wornGraphicPath>Things/Apparel/apitechevasuit</wornGraphicPath> <!--change this-->
 		<layers>
 			<li>Middle</li>
 			<li>Shell</li>
