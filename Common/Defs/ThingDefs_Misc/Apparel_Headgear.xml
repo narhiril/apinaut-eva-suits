@@ -10,7 +10,7 @@
 	<tradeability>Sellable</tradeability>
     <techLevel>Spacer</techLevel>
 	<graphicData>
-		<texPath>Things/Apparel/apitechevahelmet_south</texPath>
+		<texPath>Things/Apparel/ApitechEVAHelmet_south</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
 		<shaderType>CutoutComplex</shaderType>
     </graphicData>
@@ -48,7 +48,7 @@
 		<bodyPartGroups>
 			<li>FullHead</li>
 		</bodyPartGroups>
-		<wornGraphicPath>Things/Apparel/apitechevahelmet</wornGraphicPath> <!--change this-->
+		<wornGraphicPath>Things/Apparel/ApitechEVAHelmet</wornGraphicPath> <!--change this-->
 		<useWornGraphicMask>true</useWornGraphicMask>
 		<layers>
 			<li>Overhead</li>

@@ -15,7 +15,7 @@
 					</costList>
 				</value>
 			</li>
-			<li Class=PatchOperationReplace>
+			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="ApiEva_ApitechEvaHelmet"]/costList</xpath>
 				<value>
 					<costList>

@@ -5,12 +5,12 @@
   <ThingDef ParentName="ArmorMachineableBase">
 	<defName>ApiEva_ApitechEvaSuit</defName>
 	<label>Apitech EVA Suit</label>
-    <description>A painstakinly-woven pressure suit made from of beeswax and plasteel fibers.  It provides ample protection against the vacuum of space - though, sadly, none whatsoever against the accompanying existential dread.\n  In space, no one can hear you make bee noises.</description>
+    <description>A painstakinly-woven pressure suit made from beeswax and plasteel fibers.  It provides ample protection against the vacuum of space - though, sadly, none whatsoever against the accompanying existential dread.\n\n\nIn space, no one can hear you make bee noises.</description>
 	<generateCommonality>0</generateCommonality>
 	<tradeability>Sellable</tradeability> 
 	<techLevel>Spacer</techLevel>
     <graphicData>
-		<texPath>Things/Apparel/apitechevasuit_icon</texPath>
+		<texPath>Things/Apparel/ApitechEVASuit_icon</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <recipeMaker>
@@ -59,7 +59,7 @@
 			<li>Feet</li>
 			<!--li>InsectSting</li-->
 		</bodyPartGroups>
-		<wornGraphicPath>Things/Apparel/apitechevasuit</wornGraphicPath> <!--change this-->
+		<wornGraphicPath>Things/Apparel/ApitechEVASuit</wornGraphicPath>
 		<layers>
 			<li>Middle</li>
 			<li>Shell</li>
