@@ -71,7 +71,7 @@
 	<tradeability>Sellable</tradeability>
     <techLevel>Spacer</techLevel>
 	<graphicData>
-		<texPath>Things/Apparel/HoneyglassBubbleHelmet_south</texPath>
+		<texPath>Things/Apparel/HoneyglassBubbleEVAHelmet_south</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <recipeMaker>
@@ -109,7 +109,7 @@
 		<bodyPartGroups>
 			<li>FullHead</li>
 		</bodyPartGroups>
-		<wornGraphicPath>Things/Apparel/ApitechEVAHelmet</wornGraphicPath>
+		<wornGraphicPath>Things/Apparel/HoneyglassBubbleEVAHelmet</wornGraphicPath>
 		<layers>
 			<li>Overhead</li>
 		</layers>
