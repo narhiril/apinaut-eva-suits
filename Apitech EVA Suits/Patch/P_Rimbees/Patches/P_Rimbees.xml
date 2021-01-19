@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+
+<!--Handles recipe material switch if RimBees is present-->
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="ApiEva_ApitechEvaSuit"]/costList</xpath>
+				<value>
+					<costList>
+						<ComponentSpacer>2</ComponentSpacer>
+						<Plasteel>85</Plasteel>
+						<RB_Beeswax>50</RB_Beeswax>
+					</costList>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="ApiEva_ApitechEvaHelmet"]/costList</xpath>
+				<value>
+					<costList>
+						<ComponentSpacer>2</ComponentSpacer>
+						<Plasteel>35</Plasteel>
+						<RB_Beeswax>15</RB_Beeswax>
+					</costList>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+</Patch>
