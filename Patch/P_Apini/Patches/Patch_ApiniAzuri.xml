@@ -7,6 +7,7 @@
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Apini"]/alienRace/raceRestriction/apparelList</xpath>
 				<value>
+					<li>ApiEva_HoneyglassEvaHelmet</li>
 					<li>ApiEva_ApitechEvaSuit</li>
 					<li>ApiEva_ApitechEvaHelmet</li>
 				</value>
@@ -14,6 +15,7 @@
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Azuri"]/alienRace/raceRestriction/apparelList</xpath>
 				<value>
+					<li>ApiEva_HoneyglassEvaHelmet</li>
 					<li>ApiEva_ApitechEvaSuit</li>
 					<li>ApiEva_ApitechEvaHelmet</li>
 				</value>
