@@ -10,7 +10,7 @@
 	<tradeability>Sellable</tradeability>
     <techLevel>Spacer</techLevel>
 	<graphicData>
-		<texPath>Things/Apparel/ApitechEVAHelmet_south</texPath>
+		<texPath>Things/Apparel/ApitechEVAHelmet_icon</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
 		<shaderType>CutoutComplex</shaderType>
     </graphicData>
@@ -122,5 +122,21 @@
 		</defaultOutfitTags>
 	</apparel>
   </ThingDef>
-
+  
+  <!--
+  <ThingDef ParentName="HatBase">
+    <defName>ApiEva_BluebeeCaptainHat</defName>
+    <label>Cap'n Bluebee's Finest Hat</label>
+	<description>A hat rumored to have once belonged to the legendary Cap'n Bluebee.</description>
+	
+  </ThingDef>
+  
+  
+  <ThingDef ParentName="ArmorHelmetMakeableBase">
+    <defName>ApiEva_BluebeeCaptainEvaHelmet</defName>
+    <label>Cap'n Bluebee's High-In-The-Sky EVA Helmet</label>
+	<description>Legends state that Cap'n Bluebee once taped his hat to his honeyglass bubble helmet before fighting off a dozen mechanoids, in space, all while high on smokeleaf./n/n...Wow, that hat is really stuck on there, isn't it?  It kind of smells like smoke and vomit.</description>
+	
+  </ThingDef>
+-->
 </Defs>
