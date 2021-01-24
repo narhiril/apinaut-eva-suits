@@ -130,13 +130,63 @@
 	<description>A hat rumored to have once belonged to the legendary Cap'n Bluebee.</description>
 	
   </ThingDef>
-  
+  -->
   
   <ThingDef ParentName="ArmorHelmetMakeableBase">
     <defName>ApiEva_BluebeeCaptainEvaHelmet</defName>
     <label>Cap'n Bluebee's High-In-The-Sky EVA Helmet</label>
-	<description>Legends state that Cap'n Bluebee once taped his hat to his honeyglass bubble helmet before fighting off a dozen mechanoids, in space, all while high on smokeleaf./n/n...Wow, that hat is really stuck on there, isn't it?  It kind of smells like smoke and vomit.</description>
-	
+	<description>Legends state that Cap'n Bluebee once taped his hat to his honeyglass bubble helmet before fighting off a dozen mechanoids, in space, all while high on smokeleaf.\n\n...Wow, that hat is really stuck on there, isn't it?</description>
+	<graphicData>
+		<texPath>Things/Apparel/BluebeeEVAHelmet_south</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+	<recipeMaker>
+		<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+		<researchPrerequisite>ShipSpaceSuits</researchPrerequisite>
+		<skillRequirements>
+			<Crafting>10</Crafting>
+		</skillRequirements>
+		<recipeUsers Inherit="False">
+			<li>TableMachining</li>
+		</recipeUsers>
+    </recipeMaker>
+	<statBases>
+		<WorkToMake>7000</WorkToMake>
+		<MaxHitPoints>90</MaxHitPoints>
+		<Mass>2.9</Mass>
+		<Flammability>0.5</Flammability>
+		<ArmorRating_Sharp>0.25</ArmorRating_Sharp>
+		<ArmorRating_Blunt>0.15</ArmorRating_Blunt>
+		<ArmorRating_Heat>0.55</ArmorRating_Heat>
+		<Insulation_Cold>60</Insulation_Cold>
+		<Insulation_Heat>45</Insulation_Heat>
+		<EquipDelay>4</EquipDelay>
+	</statBases>
+    <equippedStatOffsets>
+		<MoveSpeed>-0.04</MoveSpeed>
+		<PsychicSensitivity>-0.125</PsychicSensitivity>
+    </equippedStatOffsets>
+    <costList>
+		<ComponentIndustrial>2</ComponentIndustrial>
+		<ApiniHoney>50</ApiniHoney>
+		<Synthread>5</Synthread>
+    </costList>
+	<apparel>
+		<bodyPartGroups>
+			<li>FullHead</li>
+		</bodyPartGroups>
+		<wornGraphicPath>Things/Apparel/BluebeeEVAHelmet</wornGraphicPath>
+		<layers>
+			<li>Overhead</li>
+		</layers>
+		<tags>
+			<li>Spacer</li>
+			<li>EVA</li>
+			<li>Bee</li>
+		</tags>
+		<defaultOutfitTags>
+		</defaultOutfitTags>
+	</apparel>
   </ThingDef>
--->
+
 </Defs>

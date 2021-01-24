@@ -10,6 +10,7 @@
 					<li>ApiEva_HoneyglassEvaHelmet</li>
 					<li>ApiEva_ApitechEvaSuit</li>
 					<li>ApiEva_ApitechEvaHelmet</li>
+					<li>ApiEva_BluebeeCaptainEvaHelmet</li>
 				</value>
 			</li>
 			<li Class="PatchOperationAdd">
@@ -18,6 +19,7 @@
 					<li>ApiEva_HoneyglassEvaHelmet</li>
 					<li>ApiEva_ApitechEvaSuit</li>
 					<li>ApiEva_ApitechEvaHelmet</li>
+					<li>ApiEva_BluebeeCaptainEvaHelmet</li>
 				</value>
 			</li>
 		</operations>
