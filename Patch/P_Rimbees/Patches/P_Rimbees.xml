@@ -6,7 +6,7 @@
 	<Operation Class="PatchOperationSequence">
 		<operations>
 			<li Class="PatchOperationReplace">
-				<xpath>Defs/ThingDef[defName="ApiEva_ApitechEvaSuit"]/costList</xpath>
+				<xpath>Defs/ThingDef[defName="ApiEva_ApinautEvaSuit"]/costList</xpath>
 				<value>
 					<costList>
 						<ComponentSpacer>2</ComponentSpacer>
@@ -16,7 +16,7 @@
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
-				<xpath>Defs/ThingDef[defName="ApiEva_ApitechEvaHelmet"]/costList</xpath>
+				<xpath>Defs/ThingDef[defName="ApiEva_ApinautEvaHelmet"]/costList</xpath>
 				<value>
 					<costList>
 						<ComponentSpacer>2</ComponentSpacer>

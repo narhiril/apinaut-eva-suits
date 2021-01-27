@@ -3,14 +3,14 @@
 <Defs>
 
   <ThingDef ParentName="ArmorHelmetMakeableBase">
-    <defName>ApiEva_ApitechEvaHelmet</defName>
-    <label>Apitech EVA Helmet</label>
+    <defName>ApiEva_ApinautEvaHelmet</defName>
+    <label>Apinaut's EVA Helmet</label>
     <description>This helmet is made from a beeswax-plasteel metamaterial, making it light, strong, and slightly fragrant.  It's perfect for any Apini who might - hypothetically - want to visit the moon in order to confirm that it's made of wax.</description>
 	<generateCommonality>0</generateCommonality>
 	<tradeability>Sellable</tradeability>
     <techLevel>Spacer</techLevel>
 	<graphicData>
-		<texPath>Things/Apparel/ApitechEVAHelmet_icon</texPath>
+		<texPath>Things/Apparel/ApinautEVAHelmet_icon</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
 		<shaderType>CutoutComplex</shaderType>
     </graphicData>
@@ -48,7 +48,7 @@
 		<bodyPartGroups>
 			<li>FullHead</li>
 		</bodyPartGroups>
-		<wornGraphicPath>Things/Apparel/ApitechEVAHelmet</wornGraphicPath> <!--change this-->
+		<wornGraphicPath>Things/Apparel/ApinautEVAHelmet</wornGraphicPath> <!--change this-->
 		<useWornGraphicMask>true</useWornGraphicMask>
 		<layers>
 			<li>Overhead</li>
@@ -61,6 +61,12 @@
 		<defaultOutfitTags>
 		</defaultOutfitTags>
 	</apparel>
+	<modExtensions>
+		<li Class="WaterIsCold.WetGear">
+			<wetSuit>true</wetSuit>
+			<rainSuit>true</rainSuit>
+		</li>
+	</modExtensions>
   </ThingDef>
   
   <ThingDef ParentName="ArmorHelmetMakeableBase">
@@ -121,6 +127,12 @@
 		<defaultOutfitTags>
 		</defaultOutfitTags>
 	</apparel>
+	<modExtensions>
+		<li Class="WaterIsCold.WetGear">
+			<wetSuit>true</wetSuit>
+			<rainSuit>true</rainSuit>
+		</li>
+	</modExtensions>
   </ThingDef>
   
   <!--
@@ -187,6 +199,12 @@
 		<defaultOutfitTags>
 		</defaultOutfitTags>
 	</apparel>
+	<modExtensions>
+		<li Class="WaterIsCold.WetGear">
+			<wetSuit>true</wetSuit>
+			<rainSuit>true</rainSuit>
+		</li>
+	</modExtensions>
   </ThingDef>
 
 </Defs>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 
 <ModMetaData>
-	<packageId>narhiril.apitechevasuits</packageId>
-	<name>Apitech EVA Suits</name>
+	<packageId>narhiril.apinautevasuits</packageId>
+	<name>Apinaut EVA Suits</name>
 	<author>narhiril</author>
 	<supportedVersions>
 		<li>1.2</li>
