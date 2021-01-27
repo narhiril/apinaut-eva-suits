@@ -19,11 +19,11 @@
 		<skillRequirements>
 			<Crafting>10</Crafting>
 		</skillRequirements>
-		<recipeUsers Inherit="False"> <!--change this-->
+		<recipeUsers Inherit="False">
 			<li>FabricationBench</li>
 		</recipeUsers>
 	</recipeMaker>
-    <statBases
+    <statBases>
 		<WorkToMake>40000</WorkToMake>
 		<MaxHitPoints>225</MaxHitPoints>
 		<Mass>12.5</Mass>
@@ -72,12 +72,7 @@
 		<defaultOutfitTags>
 		</defaultOutfitTags>
     </apparel>
-	<modExtensions>
-		<li Class="WaterIsCold.WetGear">
-			<wetSuit>true</wetSuit>
-			<rainSuit>true</rainSuit>
-		</li>
-	</modExtensions>
   </ThingDef>
   
   </Defs>
+  

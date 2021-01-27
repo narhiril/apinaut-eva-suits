@@ -61,12 +61,6 @@
 		<defaultOutfitTags>
 		</defaultOutfitTags>
 	</apparel>
-	<modExtensions>
-		<li Class="WaterIsCold.WetGear">
-			<wetSuit>true</wetSuit>
-			<rainSuit>true</rainSuit>
-		</li>
-	</modExtensions>
   </ThingDef>
   
   <ThingDef ParentName="ArmorHelmetMakeableBase">
@@ -127,12 +121,6 @@
 		<defaultOutfitTags>
 		</defaultOutfitTags>
 	</apparel>
-	<modExtensions>
-		<li Class="WaterIsCold.WetGear">
-			<wetSuit>true</wetSuit>
-			<rainSuit>true</rainSuit>
-		</li>
-	</modExtensions>
   </ThingDef>
   
   <!--
@@ -199,12 +187,6 @@
 		<defaultOutfitTags>
 		</defaultOutfitTags>
 	</apparel>
-	<modExtensions>
-		<li Class="WaterIsCold.WetGear">
-			<wetSuit>true</wetSuit>
-			<rainSuit>true</rainSuit>
-		</li>
-	</modExtensions>
   </ThingDef>
 
 </Defs>
