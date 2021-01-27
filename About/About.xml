@@ -9,14 +9,29 @@
 	</supportedVersions>
 	<modDependencies>
 		<li>
-		<packageId>sera.apinialienrace</packageId>
-		<displayName>Apini Playable Race, Continued!</displayName>
-		<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2204437968</steamWorkshopUrl>
+			<packageId>brrainz.harmony</packageId>
+			<displayName>Harmony</displayName>
+			<steamWorkshopUrl>steamcommunity.com/sharedfiles/filedetails/?id=2009463077</steamWorkshopUrl>
 		</li>
 		<li>
-		<packageId>kentington.saveourship2</packageId>
-		<displayName>Save Our Ship 2</displayName>
-		<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=1909914131</steamWorkshopUrl>
+			<packageId>UnlimitedHugs.HugsLib</packageId>
+			<displayName>HugsLib</displayName>
+			<steamWorkshopUrl>steamcommunity.com/sharedfiles/filedetails/?id=818773962</steamWorkshopUrl>
+		</li>
+		<li>
+			<packageId>erdelf.HumanoidAlienRaces</packageId>
+			<displayName>Humanoid Alien Races 2.0</displayName>
+			<steamWorkshopUrl>steamcommunity.com/sharedfiles/filedetails/?id=839005762</steamWorkshopUrl>
+		</li>
+		<li>
+			<packageId>sera.apinialienrace</packageId>
+			<displayName>Apini Playable Race, Continued!</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2204437968</steamWorkshopUrl>
+		</li>
+		<li>
+			<packageId>kentington.saveourship2</packageId>
+			<displayName>Save Our Ship 2</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=1909914131</steamWorkshopUrl>
 		</li>
 	</modDependencies>
 	<loadAfter>
@@ -24,7 +39,7 @@
 	  <li>sera.apinialienrace</li>
 	  <li>kentington.saveourship2</li>
 	</loadAfter>
-	<description>v0.1
+	<description>v0.2
 	An alternate SoS2 EVA suit for Apini and Azuri.
 	</description>
 </ModMetaData>
