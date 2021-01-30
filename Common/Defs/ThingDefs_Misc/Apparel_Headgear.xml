@@ -6,7 +6,7 @@
     <defName>ApiEva_ApinautEvaHelmet</defName>
     <label>Apinaut's EVA Helmet</label>
     <description>This helmet is made from a beeswax-plasteel metamaterial, making it light, strong, and slightly fragrant.  It's perfect for any Apini who might - hypothetically - want to visit the moon in order to confirm that it's made of wax.</description>
-	<generateCommonality>0</generateCommonality>
+	<generateCommonality>0.2</generateCommonality>
 	<tradeability>Sellable</tradeability>
     <techLevel>Spacer</techLevel>
 	<graphicData>
@@ -87,6 +87,7 @@
 	<statBases>
 		<WorkToMake>7000</WorkToMake>
 		<MaxHitPoints>90</MaxHitPoints>
+		<MarketValue>400</MarketValue>
 		<Mass>2.9</Mass>
 		<Flammability>0.5</Flammability>
 		<ArmorRating_Sharp>0.25</ArmorRating_Sharp>
@@ -123,19 +124,58 @@
 	</apparel>
   </ThingDef>
   
-  <!--
   <ThingDef ParentName="HatBase">
     <defName>ApiEva_BluebeeCaptainHat</defName>
     <label>Cap'n Bluebee's Finest Hat</label>
-	<description>A hat rumored to have once belonged to the legendary Cap'n Bluebee.</description>
-	
+	<description>A hat rumored to have once belonged to the legendary Cap'n Bluebee.  It smells faintly of smokeleaf.</description>
+    <techLevel>Spacer</techLevel>
+    <tradeTags>
+		<li>ExoticMisc</li>
+    </tradeTags>
+	<generateCommonality>0.125</generateCommonality>
+	<graphicData>
+		<texPath>Things/Apparel/BluebeeCaptainHat_icon</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <uiIconScale>1.2</uiIconScale>
+    <statBases>
+		<MaxHitPoints>100</MaxHitPoints>
+		<WorkToMake>420</WorkToMake>
+		<MarketValue>420</MarketValue>
+		<Mass>0.1</Mass>
+		<EquipDelay>0.4</EquipDelay>
+		<ArmorRating_Sharp>0.1</ArmorRating_Sharp>
+		<ArmorRating_Blunt>0.1</ArmorRating_Blunt>
+		<ArmorRating_Heat>0.25</ArmorRating_Heat>
+		<Insulation_Cold>15</Insulation_Cold>
+		<Insulation_Heat>10</Insulation_Heat>
+    </statBases>
+    <apparel>
+		<bodyPartGroups>
+			<li>UpperHead</li>
+		</bodyPartGroups>
+		<wornGraphicPath>Things/Apparel/BluebeeCaptainHat</wornGraphicPath>
+		<layers>
+			<li>Overhead</li>
+		</layers>
+		<tags>
+			<li>Spacer</li>
+			<li>Bee</li>
+		</tags>
+		<defaultOutfitTags>
+		</defaultOutfitTags>
+    </apparel>
   </ThingDef>
-  -->
   
   <ThingDef ParentName="ArmorHelmetMakeableBase">
     <defName>ApiEva_BluebeeCaptainEvaHelmet</defName>
     <label>Cap'n Bluebee's High-In-The-Sky EVA Helmet</label>
 	<description>Legends state that Cap'n Bluebee once taped his hat to his honeyglass bubble helmet before fighting off a dozen mechanoids, in space, all while high on smokeleaf.\n\n...Wow, that hat is really stuck on there, isn't it?</description>
+	<techLevel>Spacer</techLevel>
+    <tradeTags>
+		<li>ExoticMisc</li>
+    </tradeTags>
+	<generateCommonality>0.025</generateCommonality>
 	<graphicData>
 		<texPath>Things/Apparel/BluebeeEVAHelmet_south</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
@@ -153,6 +193,7 @@
 	<statBases>
 		<WorkToMake>7000</WorkToMake>
 		<MaxHitPoints>90</MaxHitPoints>
+		<MarketValue>840</MarketValue>
 		<Mass>2.9</Mass>
 		<Flammability>0.5</Flammability>
 		<ArmorRating_Sharp>0.25</ArmorRating_Sharp>
@@ -163,13 +204,18 @@
 		<EquipDelay>4</EquipDelay>
 	</statBases>
     <equippedStatOffsets>
+		<Beauty>0.125</Beauty>
+		<TradePriceImprovement>0.15</TradePricceImprovement>
+		<GiftImpact>0.15</GiftImpact>
+		<SocialImpact>0.2</SocialImpact>
+		<EntertainmentStrengthFactor>0.1</EntertainmentStrengthFactor>
 		<MoveSpeed>-0.04</MoveSpeed>
 		<PsychicSensitivity>-0.125</PsychicSensitivity>
     </equippedStatOffsets>
     <costList>
-		<ComponentIndustrial>2</ComponentIndustrial>
-		<ApiniHoney>50</ApiniHoney>
-		<Synthread>5</Synthread>
+		<ApiEva_BluebeeCaptainHat>1</ApiEva_BluebeeCaptainHat>
+		<ApiEva_HoneyglassEvaHelmet>1</ApiEva_HoneyglassEvaHelmet>
+		<SmokeleafJoint>4</SmokeleafJoint>
     </costList>
 	<apparel>
 		<bodyPartGroups>
