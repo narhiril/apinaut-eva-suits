@@ -150,6 +150,13 @@
 		<Insulation_Cold>15</Insulation_Cold>
 		<Insulation_Heat>10</Insulation_Heat>
     </statBases>
+    <equippedStatOffsets>
+		<Beauty>0.125</Beauty>
+		<TradePriceImprovement>0.15</TradePriceImprovement>
+		<GiftImpact>0.15</GiftImpact>
+		<SocialImpact>0.2</SocialImpact>
+		<EntertainmentStrengthFactor>0.1</EntertainmentStrengthFactor>
+	</equippedStatOffsets>
     <apparel>
 		<bodyPartGroups>
 			<li>UpperHead</li>
@@ -205,7 +212,7 @@
 	</statBases>
     <equippedStatOffsets>
 		<Beauty>0.125</Beauty>
-		<TradePriceImprovement>0.15</TradePricceImprovement>
+		<TradePriceImprovement>0.15</TradePriceImprovement>
 		<GiftImpact>0.15</GiftImpact>
 		<SocialImpact>0.2</SocialImpact>
 		<EntertainmentStrengthFactor>0.1</EntertainmentStrengthFactor>
