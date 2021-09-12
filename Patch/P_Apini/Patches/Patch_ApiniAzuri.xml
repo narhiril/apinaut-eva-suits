@@ -5,21 +5,13 @@
 	<Operation Class="PatchOperationSequence">
 		<operations>
 			<li Class="PatchOperationAdd">
-				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Apini"]/alienRace/raceRestriction/apparelList</xpath>
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Bee"]/alienRace/raceRestriction/apparelList</xpath>
 				<value>
 					<li>ApiEva_HoneyglassEvaHelmet</li>
 					<li>ApiEva_ApinautEvaSuit</li>
 					<li>ApiEva_ApinautEvaHelmet</li>
 					<li>ApiEva_BluebeeCaptainEvaHelmet</li>
-				</value>
-			</li>
-			<li Class="PatchOperationAdd">
-				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Azuri"]/alienRace/raceRestriction/apparelList</xpath>
-				<value>
-					<li>ApiEva_HoneyglassEvaHelmet</li>
-					<li>ApiEva_ApinautEvaSuit</li>
-					<li>ApiEva_ApinautEvaHelmet</li>
-					<li>ApiEva_BluebeeCaptainEvaHelmet</li>
+					<li>ApiEva_BluebeeCaptainHat</li>
 				</value>
 			</li>
 		</operations>
