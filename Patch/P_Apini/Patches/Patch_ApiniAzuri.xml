@@ -5,7 +5,7 @@
 	<Operation Class="PatchOperationSequence">
 		<operations>
 			<li Class="PatchOperationAdd">
-				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Bee"]/alienRace/raceRestriction/apparelList</xpath>
+				<xpath>Defs/ThingDef[@Name="Alien_Bee"]/alienRace/raceRestriction/apparelList</xpath>
 				<value>
 					<li>ApiEva_HoneyglassEvaHelmet</li>
 					<li>ApiEva_ApinautEvaSuit</li>
